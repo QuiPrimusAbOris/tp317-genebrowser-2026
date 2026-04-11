@@ -41,7 +41,7 @@ st.markdown(
 
 # ── File locations ─────────────────────────────────────────────────────────────
 # CSV files are expected in a subfolder called 'data/' next to this script.
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "datafiles")
 
 FILES = [
     ("_01_K4_B16F10",  "_01_K4_B16F10_bulkRNAseqCounts_msTP1.csv"),
