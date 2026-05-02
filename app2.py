@@ -14,7 +14,7 @@ Folder structure expected in the GitHub repo:
     datafiles/          ← the 10 raw RNAseq CSV files
     deseq2_results/     ← the 10 per-experiment DESeq2 CSVs
         DESeq2_master_all_experiments.csv
-        DESeq2_K4_B16F10.csv  … etc.
+        DESeq2_K5_B16F10.csv  … etc.
 """
 
 import csv
@@ -59,7 +59,7 @@ MASTER_CSV = None   # not used — app loads per-experiment files directly
 # ── Experiment definitions ────────────────────────────────────────────────────
 # subplot_label  →  (csv_filename,  deseq2_key)
 FILES = [
-    ("_01_K4_B16F10",  "_01_K4_B16F10_bulkRNAseqCounts_msTP1.csv",  "K4_B16F10"),
+    ("_01_K5_B16F10",  "_01_K5_B16F10_bulkRNAseqCounts_msTP1.csv",  "K5_B16F10"),
     ("_02_E10_B16F10", "_02_E10_B16F10_bulkRNAseqCounts_msTP1.csv", "E10_B16F10"),
     ("_03_K1_LLC",     "_03_K1_LLC_bulkRNAseqCounts_msTP1.csv",     "K1_LLC"),
     ("_04_K8_LLC",     "_04_K8_LLC_bulkRNAseqCounts_msTP1.csv",     "K8_LLC"),
